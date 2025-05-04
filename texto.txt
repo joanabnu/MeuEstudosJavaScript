@@ -1,0 +1,3 @@
+Iniciei o curso de Luiz Otavio Miranda de JavaScript 
+
+site : w3school.com JavaScript para ler documentação do JavaScript

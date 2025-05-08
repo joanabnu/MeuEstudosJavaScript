@@ -1,2 +1,3 @@
 # MeuEstudosJavaScript
-Curso do Otavio MIranda
+Curso do Luiz Otavio Miranda
+Javascript e TypeScript - front-end e back-end (Full Stack) - Node, Express, noSQL, React, hooks, Redux, Design Patterns

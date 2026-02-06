@@ -6,3 +6,5 @@ const resultadoDuplicado =  conta * 2;
 let resultadoTriplicado = conta * 3 ;
 resultadoTriplicado = resultadoTriplicado + 5
 console.log('Resultado : ',conta, '\nresultado duplicado : ',resultadoDuplicado, '\nResultado triplicado + 5 : ', resultadoTriplicado);
+
+console.log(typeof primeiroNumero)

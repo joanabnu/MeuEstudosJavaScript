@@ -2,9 +2,15 @@ const nome = 'joana'; //String
 const nome1 = "Maria"; // String
 const nome2 = `Joana`; //String
 const num1 = 10; // Number
-const num2 = 10.52 //Number
-let nomeAluno // undefined = Nao aponta para local nenhum na memoria. 
+const num2 = 10.52; //Number
+let nomeAluno; // undefined = Nao aponta para local nenhum na memoria. 
 const sobrenomeAluno = null // nulo nao aponta para local nenhuma na memoria.
 
 const aprovado = true ; // boolean (logico) true ou false
-console.log(typeof aprovado, aprovado )
+console.log(typeof aprovado, aprovado );
+
+const a = [1,2];
+const b = a;
+console.log(a,b);
+b.push(3);
+console.log(a,b)

@@ -1,3 +1,4 @@
+// String, number, undefined, null, boolean, symbol
 const nome = 'joana'; //String
 const nome1 = "Maria"; // String
 const nome2 = `Joana`; //String

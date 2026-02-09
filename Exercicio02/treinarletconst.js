@@ -12,3 +12,6 @@ const alturaEmM = 1.55;
 let imc = peso / ( alturaEmM * alturaEmM)
 
 console.log('Nome : ',nome, '\nSobrenome : ',sobrenome,'\nIdade : ',idade, '\npeso : ',peso, 'Altura : ',alturaEmM, '\nO IMC : ',imc); 
+// Templates strings
+console.log('----Templates String----')
+console.log(`Nome : ${nome} \nSobrenome : ${sobrenome} \nIdade : ${idade} \nPeso : ${peso} \nAltura ${alturaEmM} \nO Imc ${imc}`)

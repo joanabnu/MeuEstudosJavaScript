@@ -4,6 +4,7 @@ const nome2 = `Joana`; //String
 const num1 = 10; // Number
 const num2 = 10.52 //Number
 let nomeAluno // undefined = Nao aponta para local nenhum na memoria. 
-let sobrenomeAluno = null // nulo nao aponta para local nenhuma na memoria.
+const sobrenomeAluno = null // nulo nao aponta para local nenhuma na memoria.
 
-
+const aprovado = true ; // boolean (logico) true ou false
+console.log(typeof aprovado, aprovado )

@@ -8,6 +8,7 @@ const nome = 'Joana';
 const sobrenome = 'Maria';
 const idade = 25;
 const peso = 50;
-const alturaEmCm = 1.55;
-let imc = peso / ( alturaEmCm * alturaEmCm)
-console.log('Nome : ',nome, '\nSobrenome : ',sobrenome,'\nIdade : ',idade, '\npeso : ',peso, 'Altura : ',alturaEmCm, '\nO IMC : ',imc);
+const alturaEmM = 1.55;
+let imc = peso / ( alturaEmM * alturaEmM)
+
+console.log('Nome : ',nome, '\nSobrenome : ',sobrenome,'\nIdade : ',idade, '\npeso : ',peso, 'Altura : ',alturaEmM, '\nO IMC : ',imc); 

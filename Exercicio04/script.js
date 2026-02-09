@@ -7,3 +7,4 @@ varA = varB;
 varB = varC;
 varC = varAtemp;
 console.log(varA,varB,varC)
+

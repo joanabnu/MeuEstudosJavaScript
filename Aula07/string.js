@@ -12,4 +12,5 @@ console.log(novaString.slice(-3));
 console.log(novaString.slice(-5,-1));
 console.log(novaString.split('r'));
 console.log(novaString.split(' ',3));
-
+console.log(novaString.toLocaleUpperCase());
+console.log(novaString.toLocaleLowerCase());

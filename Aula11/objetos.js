@@ -15,9 +15,9 @@ console.log(pessoa1.idade);
 
 function criaPessoa (nomePessoa,sobrenomePessoa,idadePessoa){
     return {
-        nomePessoa:nomePessoa,
-        sobrenomePessoa:sobrenomePessoa,
-        idadePessoa:idadePessoa
+        nomePessoa,
+        sobrenomePessoa,
+        idadePessoa
     };
 }
 const pessoa2 = criaPessoa('Joana', 'Maria', 25);
@@ -26,3 +26,20 @@ const pessoa4 = criaPessoa('Joao', 'Moreira', 55);
 const pessoa5 = criaPessoa('Junior', 'Lara',44);
 const pessoa6 = criaPessoa('Jean', 'Otavio',69);
 console.log(pessoa2,'\n' ,pessoa3, '\n', pessoa4,'\n', pessoa5, '\n',pessoa6)
+
+const  person = {
+    nome: 'Katia',
+    sobrenome: 'Aparecida',
+    idade: 69,
+
+    fala() {
+        console.log(`${this.nome} ${this.sobrenome}esta falando oi... a minha idade é ${this.idade}`);
+    },
+    incrementaIdade() {
+        this.idade++;
+    }
+
+};
+person.fala();
+person.incrementaIdade();
+person.fala();

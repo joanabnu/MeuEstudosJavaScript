@@ -1,5 +1,5 @@
 /* 
-Primitivos (imutaveis) -  String, number, boolean, undefined,null (bigint, symbol)
+Primitivos (imutaveis) -  String, number, boolean, undefined,null (bigint, symbol) - valores copiados 
 Referencia (mutavel) - Array, objects, function - Passados por referencia
 */
 let nome = 'Joana';

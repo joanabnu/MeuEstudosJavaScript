@@ -8,7 +8,7 @@ function IMC(){
     evento.preventDefault();
     const peso = Number(formulario.querySelector('.peso').value);
     const altura = Number(formulario.querySelector('.altura').value);
-    console.log(peso,altura)
+    console.log(`Peso : ${peso} \nAltura : ${altura}`)
 
      informacao.push(
     {

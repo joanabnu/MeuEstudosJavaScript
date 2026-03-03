@@ -1,51 +1,58 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
-:root{
-    --primary-color:rgb(100, 172, 232);
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Passion+One:wght@400;700;900&family=Sriracha&display=swap");
+:root {
+  --primary-color: #007878;
+  --primary-colorDark: #184848;
+  --primary-bege:#f0f0d8;
+  --primary-limao:#a8c030;
 }
-*{
-    box-sizing: border-box;
-    outline: 0;
-} 
-body{
-    margin: 0;
-    padding: 0;
-    background:var(--primary-color) ;
-    font-family: 'Open sans',sans-serif;
-    font-size: 1.3em;
-    line-height: 1.5em;
-   
+* {
+  box-sizing: border-box;
+  outline: 0;
 }
-.container{
-    max-width: 640px;
-    margin: 20px auto;
-    background-color: rgb(220, 181, 239);
-    padding: 20px;
-    box-shadow: 6px 5px 10px #c2f204;
-    border: 1px solid rgb(236, 202, 10);
-    border-radius: 10px;
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--primary-color);
+  font-family: "Open sans", sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
 }
-form input,form label, form button{
-
-display: block;
-width: 100%;
-margin-bottom: 10px;
+.container {
+  max-width: 640px;
+  margin: 20px auto;
+  background-color: var(--primary-bege);
+  padding: 20px;
+  box-shadow: 6px 5px 10px var(--primary-limao);
+  border: 1px solid var(--primary-limao);
+  border-radius: 10px;
 }
-
-form input{
-    font-size: 24px;
-    height: 50px;
-    padding: 0 20px;
+form input,
+form label,
+form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
 }
 
-form input:focus{
-    outline: 1px var(--primary-color) solid;
-
+form input {
+  font-size: 24px;
+  height: 50px;
+  padding: 0 20px;
 }
-form button{
-    border: none;
-    background-color: var(--primary-color);
-    color: #fff;
-    font-size: 18px;
-    font-weight: 700;
-    height: 50px;
+
+form input:focus {
+  outline: 1px var(--primary-color) solid;
+}
+form button {
+  border: none;
+  background-color: var(--primary-color);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  height: 50px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+form button:hover {
+  background-color: var(--primary-colorDark);
 }

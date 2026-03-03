@@ -26,7 +26,7 @@ function recebeEventoForm (evento){
     resultado.innerHTML += `<p>Sobrenome : ${sobrenome.value}</p>`;
     resultado.innerHTML += `<p>Idade : ${idade.value}</p>`;
     resultado.innerHTML += `<p>Peso : ${peso.value}</p>`;
-    resultado.innerHTML += `<p>Altura :  ${altura.value} </p>`;
+    resultado.innerHTML += `<p>Altura con:  ${altura.value} </p>`;
 }
 
 

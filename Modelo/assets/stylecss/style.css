@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Passion+One:wght@400;700;900&family=Sriracha&display=swap");
 :root {
-  --primary-color: #007878;
-  --primary-colorDark: #184848;
-  --primary-bege:#f0f0d8;
-  --primary-limao:#a8c030;
+  --primary-color: #58706d;
+  --primary-colorDark: #4b5757;
+  --primary-bege:#e3e3d1;
+  --primary-verde:#a8c030;
 }
 * {
   box-sizing: border-box;
@@ -22,8 +22,8 @@ body {
   margin: 20px auto;
   background-color: var(--primary-bege);
   padding: 20px;
-  box-shadow: 6px 5px 10px var(--primary-limao);
-  border: 1px solid var(--primary-limao);
+  box-shadow: 6px 5px 10px var(--primary-verde);
+  border: 1px solid var(--primary-verde);
   border-radius: 10px;
 }
 form input,

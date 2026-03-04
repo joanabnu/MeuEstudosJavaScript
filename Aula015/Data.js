@@ -11,3 +11,21 @@ console.log('Ms',data.getMilliseconds());
 console.log('Dia da semana', data.getDay()); // 0 - domingo, 6 - Sabado
 console.log(data.toString());
 console.log(Date.now());
+
+function zeroEsquerda(num){
+    return num >= 10 ? num : `0${num}`;
+}
+
+function formataData(data){
+    const dia = zeroEsquerda(data.getDate());
+    const mes = zeroEsquerda(data.getMonth() +1);
+    const ano = zeroEsquerda(data.getFullYear());
+    const hora = zeroEsquerda(data.getHours());
+    const min = zeroEsquerda(data.getMinutes());
+    const seg = zeroEsquerda(data.getSeconds());
+    return `${dia}/${mes}/${ano} - ${hora}:${min}:${seg}`;
+}
+console.log('---'.repeat(20));
+const datafor = new Date();
+const dataBrasil = formataData(datafor);
+console.log(dataBrasil)

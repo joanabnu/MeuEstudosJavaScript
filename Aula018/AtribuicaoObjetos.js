@@ -7,5 +7,6 @@ const pessoa = {
         numero:320
     }
 };
-
-console.log(pessoa);
+// Atribuicao via desestruturacao
+const {endereço: {rua,numero}} = pessoa;
+console.log(rua,numero);
